@@ -1,7 +1,62 @@
 [
-  {
-    "repository": "BeerGang/android_kernel_moto_shamu",
-    "target_path": "kernel/moto/shamu",
-    "branch": "lollipop"
-  }
+    {
+        "remote":       "aosp",
+        "repository":   "device/moto/shamu-kernel",
+        "target_path":  "device/moto/shamu-kernel",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/audio",
+        "target_path":  "hardware/qcom/audio",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/bt",
+        "target_path":  "hardware/qcom/bt",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/display",
+        "target_path":  "hardware/qcom/display",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/keymaster",
+        "target_path":  "hardware/qcom/keymaster",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+	{
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/media",
+        "target_path":  "hardware/qcom/media",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/msm8x84",
+        "target_path":  "hardware/qcom/msm8x84",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/power",
+        "target_path":  "hardware/qcom/power",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "aosp",
+        "repository":   "platform/hardware/qcom/wlan",
+        "target_path":  "hardware/qcom/wlan",
+        "branch":     "refs/tags/android-5.0.2_r1"
+    },
+    {
+        "remote":       "github",
+        "repository":   "ThankYouMario/proprietary_vendor_motorola_shamu",
+        "target_path":  "vendor/motorola/shamu",
+        "branch":     "lollipop"
+    }
 ]

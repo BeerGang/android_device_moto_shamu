@@ -37,12 +37,6 @@
     },
     {
         "remote":       "aosp",
-        "repository":   "platform/hardware/qcom/msm8x84",
-        "target_path":  "hardware/qcom/msm8x84",
-        "branch":     "refs/tags/android-5.0.2_r1"
-    },
-    {
-        "remote":       "aosp",
         "repository":   "platform/hardware/qcom/power",
         "target_path":  "hardware/qcom/power",
         "branch":     "refs/tags/android-5.0.2_r1"
